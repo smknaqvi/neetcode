@@ -1,5 +1,6 @@
 from typing import List
 
-def hasDuplicate(self, nums: List[int]) -> bool:
-    # TODO: Implement your solution here
-    pass
+def hasDuplicate(self, nums: list[int]) -> bool:
+      x = len(nums)
+      y = len(set(nums))
+      return x != y
