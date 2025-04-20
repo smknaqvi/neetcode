@@ -1,5 +1,5 @@
 from typing import List
 
 def hasDuplicate(self, nums: List[int]) -> bool:
-    # TODO: Implement your solution here
-    pass
+        uniqueNums = set(nums)
+        return len(uniqueNums) != len(nums)
